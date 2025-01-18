@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  width: 60%;
+  margin: 40px auto;
+  background: #444444;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #2980b9;
+}
+/* Table Styles */
+table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 15px;
+  border: 1px solid #dddddd;
+}
+
+table th {
+  background: #2c3e50;
+  color: white;
+  text-align: left;
+}
+
+table tr:hover {
+  background: #ecf0f1;
+}
+
+/* Link Styles */
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+  text-align: center;
+  padding: 40px 0;
+}
+.admin-dashboard a {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 25px;
+  background: #e67e22;
+  color: white;
+  border-radius: 5px;
+}
+
+.admin-dashboard a:hover {
+  background: #d35400;
+}
+
+/* Error and Success Message Styles */
+.message {
+  width: 70%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.error {
+  background: #c0392b;
+  color: white;
+  border: 1px solid #a93226;
+}
+
+.success {
+  background: #27ae60;
+  color: white;
+  border: 1px solid #1e8449;
+}
