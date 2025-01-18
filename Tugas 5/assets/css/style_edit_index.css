@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 136, 136, 0.6),
+    rgb(73, 179, 193)
+  );
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 40px;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  background: -webkit-linear-gradient(#007bff, #0056b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1::after {
+  content: "";
+  width: 150px;
+  height: 4px;
+  background-color: rgba(0, 123, 255, 0.7);
+  display: block;
+  margin: 10px auto;
+}
+
+p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 123, 255, 0.3);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+a:hover {
+  background-color: rgba(0, 86, 179, 0.5);
+  transform: scale(1.05);
+}
+
+a:active {
+  transform: scale(0.95);
+}
+
+footer {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
